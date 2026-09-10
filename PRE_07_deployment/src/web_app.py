@@ -44,7 +44,7 @@ def index():
 
         df = pd.DataFrame.from_dict(user_values, orient="index").T
 
-        with open(f"{FOLDER}/data/output/house_predictor.pkl", "rb") as file:
+        with open(f"{FOLDER}/submission/house_predictor.pkl", "rb") as file:
             loaded_model = pickle.load(file)
 
         prediction = round(loaded_model.predict(df)[0][0], 2)

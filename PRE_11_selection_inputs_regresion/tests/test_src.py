@@ -1,7 +1,7 @@
 import os
 
 FOLDER = "PRE_11_selection_inputs_regresion"
-OUTPUT_FOLDER = f"{FOLDER}/data/output"
+OUTPUT_FOLDER = f"{FOLDER}/submission"
 ESTIMATOR = f"{OUTPUT_FOLDER}/estimator.pkl"
 
 

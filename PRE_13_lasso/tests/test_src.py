@@ -1,7 +1,7 @@
 import os
 
 FOLDER = "PRE_13_lasso"
-OUTPUT_FOLDER = f"{FOLDER}/data/output"
+OUTPUT_FOLDER = f"{FOLDER}/submission"
 ESTIMATOR = f"{OUTPUT_FOLDER}/estimator.pkl"
 
 
